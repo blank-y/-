@@ -200,6 +200,13 @@
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="database\" />
+    <Folder Include="desktopmodules\departmentinfo\" />
+    <Folder Include="desktopmodules\employeeinfo\" />
+    <Folder Include="desktopmodules\empOFdepartment\" />
+    <Folder Include="images\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
