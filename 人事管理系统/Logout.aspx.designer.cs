@@ -10,6 +10,6 @@
 namespace 人事管理系统 {
     
     
-    public partial class About {
+    public partial class Logout {
     }
 }
