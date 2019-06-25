@@ -68,10 +68,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="About.aspx" />
-    <Content Include="App_Data\teamwork.mdf" />
-    <Content Include="App_Data\teamwork_log.ldf">
-      <DependentUpon>teamwork.mdf</DependentUpon>
-    </Content>
     <Content Include="Man_CURD.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Dep_Brow.aspx" />
@@ -205,6 +201,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="database\" />
     <Folder Include="desktopmodules\departmentinfo\" />
     <Folder Include="desktopmodules\employeeinfo\" />
