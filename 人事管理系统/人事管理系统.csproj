@@ -68,6 +68,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="About.aspx" />
+    <Content Include="Logout.aspx" />
     <Content Include="Man_CURD.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Dep_Brow.aspx" />
@@ -80,6 +81,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Mob_Emp.aspx" />
     <Content Include="Mob_Man.aspx" />
+    <Content Include="Perm_Assign.aspx" />
     <Content Include="PW_Update.aspx" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -99,6 +101,13 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Man_CURD.aspx.cs">
       <DependentUpon>Man_CURD.aspx</DependentUpon>
@@ -183,6 +192,13 @@
     </Compile>
     <Compile Include="Mob_Man.aspx.designer.cs">
       <DependentUpon>Mob_Man.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perm_Assign.aspx.cs">
+      <DependentUpon>Perm_Assign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perm_Assign.aspx.designer.cs">
+      <DependentUpon>Perm_Assign.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PW_Update.aspx.cs">
