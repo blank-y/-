@@ -70,6 +70,10 @@
     <Content Include="About.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\密码.png" />
+    <Content Include="images\登录用户名.png" />
     <Content Include="Man_CURD.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Dep_Brow.aspx" />
@@ -208,7 +212,6 @@
     <Folder Include="desktopmodules\departmentinfo\" />
     <Folder Include="desktopmodules\employeeinfo\" />
     <Folder Include="desktopmodules\empOFdepartment\" />
-    <Folder Include="images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -224,7 +227,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50367</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
