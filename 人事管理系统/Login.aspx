@@ -10,6 +10,20 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 用户id:<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            &nbsp;
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 用户code：<asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+            &nbsp;<br />
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="登录" />
+        &nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>
