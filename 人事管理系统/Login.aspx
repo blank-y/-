@@ -8,17 +8,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>登录</title>
     <style type="text/css">
+        
         /* 预设背景图 */
         .background{
             width:100%;
             height:500px;
             opacity:0.8;
+            overflow:hidden;
         }
         /* 登录表格框位置*/
         .table_container{
           position:absolute;
+          left:740px;          
           top:400px;
-          left:740px;
         }
         /* 登录表格框 */
         .table {
@@ -61,7 +63,7 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+        <form id="form1" runat="server">
         <div class="caption">
             人事管理系统
         </div>
