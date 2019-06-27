@@ -73,7 +73,7 @@
          <div class="table_container" >           
         <table class="table">
         <tr>
-            <td class="border-bottom" colspan="2">登 录 界 面</td>
+            <td class="border-bottom" colspan="2">用 户 登 录</td>
         </tr>
         <tr>
             <td class="icon"><span><img src="images/登录用户名.png" width="28px" height="26px"/></span></td>
