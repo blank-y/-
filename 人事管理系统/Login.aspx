@@ -11,15 +11,14 @@
         
         /* 预设背景图 */
         .background{
+            opacity:0.9;
             width:100%;
-            height:500px;
-            opacity:0.8;
             overflow:hidden;
         }
         /* 登录表格框位置*/
         .table_container{
           position:absolute;
-          left:740px;          
+          left:750px;        
           top:400px;
         }
         /* 登录表格框 */
@@ -64,12 +63,12 @@
 </head>
 <body>
         <form id="form1" runat="server">
+            <div class="background">
+            <img src="images/4.jpg" />
+            </div>
         <div class="caption">
             人事管理系统
         </div>
-        <div class="background">
-            <img src="images/4.jpg" />
-            </div>
          <div class="table_container" >           
         <table class="table">
         <tr>

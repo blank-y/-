@@ -70,9 +70,15 @@
     <Content Include="About.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf" />
+    <Content Include="images\1.jpg" />
     <Content Include="images\4.jpg" />
     <Content Include="images\5.jpg" />
+    <Content Include="images\about us.jpg" />
+    <Content Include="images\logo1.png" />
+    <Content Include="images\信息查询.png" />
     <Content Include="images\密码.png" />
+    <Content Include="images\新增用户.png" />
+    <Content Include="images\用户权限管理.png" />
     <Content Include="images\登录用户名.png" />
     <Content Include="Man_CURD.aspx" />
     <Content Include="Default.aspx" />
